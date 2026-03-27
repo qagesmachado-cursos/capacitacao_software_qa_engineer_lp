@@ -3,20 +3,60 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Minha Pagina</title>
-    <style>
-      body {
-        margin: 0;
-        min-height: 100vh;
-        display: grid;
-        place-items: center;
-        font-family: Arial, sans-serif;
-        background: #f5f5f5;
-        color: #222;
-      }
-    </style>
+    <meta name="theme-color" content="#0c0e12" />
+    <title>Mentoria QA Engineer</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Pagina simples para GitHub Pages</h1>
+    <header class="hero container">
+      <h1 id="hero-title"></h1>
+      <p id="hero-description"></p>
+      <a class="btn" id="hero-cta" href="#contato"></a>
+    </header>
+
+    <main class="container">
+      <section class="section">
+        <h2 id="audience-title"></h2>
+        <ul id="audience-list"></ul>
+      </section>
+
+      <section class="section">
+        <h2 id="deliverables-title"></h2>
+        <ul id="deliverables-list"></ul>
+      </section>
+
+      <section class="section">
+        <h2 id="limited-title"></h2>
+        <p id="limited-p1"></p>
+        <p id="limited-p2"></p>
+      </section>
+
+      <section class="section">
+        <h2 id="modules-title"></h2>
+        <div class="modules" id="modules-list"></div>
+      </section>
+
+      <section class="section section-guarantee">
+        <p id="guarantee-text"></p>
+      </section>
+
+      <section class="section">
+        <h2 id="testimonial-title"></h2>
+        <p class="testimonial" id="testimonial-text"></p>
+      </section>
+    </main>
+
+    <section class="footer-cta container" id="contato">
+      <h2 id="footer-title"></h2>
+      <a
+        class="btn"
+        id="footer-whatsapp"
+        href="https://wa.me/5519971727316"
+        target="_blank"
+      ></a>
+      <small class="small" id="footer-note"></small>
+    </section>
+
+    <script src="content.js"></script>
   </body>
 </html>
